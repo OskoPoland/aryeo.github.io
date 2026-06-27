@@ -1,0 +1,148 @@
+/* Base styles for a simple GitHub Pages site */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.5;
+  color: #222;
+  background: #f7f7f7;
+}
+
+/* Navbar  */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 5em;
+  overflow: hidden;
+  background-color: #333333;
+  display: block;
+}
+
+ul li {
+  float: left;
+  padding-left: 2em;
+  padding-right: 2em;
+  color: white;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: rgb(206, 223, 229);
+    color: black;
+}
+/*  */
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+main {
+  width: min(90%, 720px);
+  margin: 0 auto;
+  padding: 4rem 1rem;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: clamp(2rem, 5vw, 3rem);
+  line-height: 1.1;
+}
+
+p {
+  font-size: 1.125rem;
+}
+
+a {
+  color: #0969da;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+/* ABOUT ME */
+.SPLIT-BLOCK {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.SPLIT-BLOCK img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.SPLIT-BLOCK p {
+    margin: 0;
+}
+
+/* footer */
+footer {
+    min-height: 160px;
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+}
+
+/* Writings */
+/* Writings */
+.WRITINGS {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.WRITINGS h2 {
+  margin: 0;
+  padding: 0;
+  color: #0969da;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.WRITINGS ul {
+  margin: 0;
+  padding-left: 1.5rem;
+  list-style-type: square;
+  background-color: #f7f7f7;
+}
+
+.WRITINGS li {
+  float: none;
+  margin: 0.5rem 0;
+  padding: 0;
+  color: black;
+  text-align: left;
+}
+
+.WRITINGS li::marker {
+  color: lightblue;
+  font-size: 1.25rem;
+}
+
+.WRITINGS a {
+  color: black;
+  text-align: left;
+  text-decoration: none;
+  padding: 0;
+}
+
+.WRITINGS a:hover {
+  text-decoration: underline;
+}
